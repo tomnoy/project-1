@@ -1,0 +1,171 @@
+body{
+    margin: auto;
+}
+
+/* header start */
+header{
+    padding: 10px 0;
+}
+.wrapper {
+
+    width: 85%;
+    /* border: 2px solid salmon; */
+    margin: 0 auto;
+    overflow: hidden;
+
+}
+
+.logo {
+    width: 20%;
+    float: left;
+    /* border: 2px solid salmon; */
+
+}
+
+.logo img{
+    width: 100%;
+}
+
+
+.menu {
+
+    width: 70%;
+    float: right;
+    /* border: 2px solid salmon; */
+    margin-top: 10px;
+}
+
+.menu ul{
+    float: right;
+}
+
+.menu ul li{
+    list-style: none;
+    float: left;
+}
+
+.menu ul li  a{
+    font-family: sans-serif;
+    font-size: 17px;
+    font-weight: ;
+    color:rgb(18, 214, 155);  
+    text-decoration: none;
+    padding: 0 8px;
+}
+.menu ul li  a:hover{
+    color: tomato;
+    background-color: rgb(24, 192, 99);
+    border-radius: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* header end */
+
+
+
+
+
+
+
+
+/* banner start */
+
+
+
+.banner{
+    background-image: url(/images/bg-banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.container{
+    width: 80%;
+    /* border: 1px solid red; */
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+
+.b_content{
+width: 50%;
+/* border: 1px solid aqua; */
+margin-top: 100px;
+margin-bottom: 100px;
+
+}
+
+.b_content h1{
+    font-family: sans-serif;
+    font-size:50px ;
+    font-weight:700x ;
+    color: rgb(5, 59, 121);
+    /* margin: 0;
+    margin-top: 0; */
+    margin-bottom: 30px;
+    text-transform: capitalize;
+
+}
+.b_content p {
+    font-family: sans-serif;
+    font-size:18px ;
+    font-weight:400x ;
+    color:springgreen;
+    text-transform: capitalize;
+}
+.b_content button{
+    background-color:rgb(122, 255, 237);
+    border-radius: 30px;
+    border: none;
+    padding: 20px;
+    font-size: 15px;
+    font-weight: 700;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    
+}
+.first_part{
+    /* border: 1px solid red; */
+    width: 70%;
+    margin: 0 auto;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.first_part h1{
+    font-size: 30px;
+    margin-top: 0
+    margin-bottom:30px ;
+}
+
+.first_part p {
+    font-size: 17px;
+    color: rgb(204, 184, 184);
+    line-height: 23px;
+   
+}
+.second_part{
+   overflow: hidden;
+}
+
+.single_item{
+    float: left;
+    /* border: 1px solid red; */
+    width: 24%;
+    text-align: center;
+    padding: 0 14px;
+    margin: 0 35px;
+    font-size: 17px;
+
+    
+}
